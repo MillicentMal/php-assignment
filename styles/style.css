@@ -1,0 +1,64 @@
+.banner {
+    background-image: url(./images/img/pictures/heroes1.jpg);
+    position: relative;
+    
+}
+
+
+.banner-text {
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        }
+
+a {
+    text-decoration: none;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url("./images/img/pictures/h7.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 800px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  .update {
+      background-image:url(./images/img/pictures/heroes1.jpg);
+      position: fixed;
+     height: 100vh;
+  }
+  .form {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+     background-color: rgba(255, 255, 255, 0.7); 
+    text-align: center;
+     }
+
+.form-update {
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    position:absolute;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
